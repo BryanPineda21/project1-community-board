@@ -1,0 +1,126 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background:url('https://wallpapers.com/images/hd/beautiful-nature-background-if9xqmh0xkkpktuf.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.1;
+  font-style:bold;
+  font-weight: lighter;
+}
+
+.card-container{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.container{
+  padding: 20px;
+}
+
+.Card{
+  border: 1px solid rgba(153, 153, 153, 0.497);
+  border-radius: 50px;
+  line-height: 0.5;
+  box-shadow: 5px 5px 5px lightgrey;
+  background-color: aliceblue;
+
+}
+
+
+.Card:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 5px grey;
+  border: 1px solid salmon;
+
+}
+
+.Header{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image{
+height: 15em;
+
+margin: 0 auto;
+border-radius: 50px;
+}
+a{
+text-decoration: none;
+  color: white;
+}
+
+a:hover{
+   text-decoration: none;
+    color: black;
+}
+
+/* use parts of this css code for button 
+Link : https://codepen.io/nuhmanpk/pen/XWqBrae */
+button {
+  position: relative;
+  background:black;
+  color:black;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  transition: 0.2s;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  letter-spacing: 0.2rem;
+  padding: 1.1rem 3.1rem;
+  background: var(--clr);
+  color: var(--clr);
+  animation: box 3s infinite;
+}
+
+
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes box {
+  0% {
+    box-shadow: #27272c;
+  }
+  50% {
+    box-shadow: 0 0 25px var(--clr);
+  }
+  100% {
+    box-shadow: #27272c;
+  }
+}
