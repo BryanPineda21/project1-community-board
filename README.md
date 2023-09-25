@@ -42,7 +42,7 @@ Here's a walkthrough of implemented required features:
 Describe any challenges encountered while building the app.
 
 - Some challenges that I faced where knowing how to style the page.
-- Another challenge is finding rhe right images for my site.
+- Another challenge is finding the right images for my site.
 
 ## License
 
