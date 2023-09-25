@@ -30,9 +30,6 @@ Here's a walkthrough of implemented required features:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <div>
     <a href="https://www.loom.com/share/348f2bbfe670493d915373655b0813b0">
-      <p>Vite + React - 25 September 2023 - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/348f2bbfe670493d915373655b0813b0">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/348f2bbfe670493d915373655b0813b0-with-play.gif">
     </a>
   </div>
